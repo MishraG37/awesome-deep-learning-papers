@@ -5,7 +5,7 @@ import re
 import requests
 from html.parser import HTMLParser
 import codecs
-
+                 
 search_engine="https://www.semanticscholar.org/search?q="
 post_fix = "&sort=relevance&ae=false"
 
