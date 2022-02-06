@@ -24,7 +24,7 @@ class AuthorParser( HTMLParser ):
             self.tail_string = self.tail_string+"."+tag
             #print(self.tail_string)
     def handle_endtag(self, tag):
-        if self.m_Stop :
+        if self.m_Stop : 
             return
         if self.tail_string == "article":
             # ONLY handle the first article
